@@ -1,71 +1,174 @@
-
-.square {
-    margin-top: 100px;
-    height: 296px;
-    width: 555px;
-     margin-left: 200px;
-    width: 555px;
-    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    display: inline-block;
-}
-.squaree {
-    margin-top: 100px;
+.square_left {
+margin-top: 100px;
 height: 296px;
 width: 555px;
-
+margin-left: 100px;
+background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+display: inline-block;
+}
+.square_right {
+margin-top: 100px;
+height: 296px;
+width: 555px;
 margin-left: 30px;
 background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
 border: 1px solid rgba(0, 0, 0, 0.1);
 box-sizing: border-box;
 display: inline-block;
 }
-.get {
-    font-family: Hind Siliguri;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-    text-transform: uppercase;
-    color: #F4F9FC;
-    opacity: 0.6;
+.text_header {
+padding-left: 35px;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+text-transform: uppercase;
+color: #F4F9FC;
+opacity: 0.6;
 }
-.hdr {
-    font-family: Hind Siliguri;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31px;
-    line-height: 40px;
-    color: #F4F9FC;
+.text_center {
+padding-left: 35px;
+height: 81px;
+width: 249px;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 40px;
+color: #F4F9FC;
 }
-.show {
-    font-family: Hind Siliguri;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 27px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #F4F9FC;
+.text__center {
+width: 258px;
+padding-left: 35px;   
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 40px;
+color: #F4F9FC;
 }
+.text_foder {
+padding-left: 35px;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+text-transform: uppercase;
+color: #F4F9FC;
+}
+.image_left {
+width: 275px;
+margin-top: -317px;
+margin-left: 363px;
+}
+.image_right {
+width: 238.12px;
+margin-top: -289px;
+margin-left: 980px;
+}
+.photo{
+width: 807px;
+height: 806px;
+margin-top: 138px;
+margin-left: 40px;
+margin-bottom: 50px;
+}
+.text_orange{
+margin-top: -740px;
+margin-left: 750px;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 23px;
+letter-spacing: 0.145em;
+text-transform: uppercase;
+color: #C72535;
+opacity: 0.6;
+}
+.text_h{
+margin-top: -22px;
+margin-left: 750px;
+width: 378px;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 71px;
+color: #030D15;
+}
+.text_opacity{
+margin-top: 115px;
+margin-left: 750px;
+width: 457px;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #030D15;
+opacity: 0.6;
+}
+ul{
+margin-top: 36px;
+margin-left: 716px;
+font-family: Hind Siliguri;
+line-height: 50px;
+list-style-type: none;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #030D15;
+}
+li:before {
+content: "✔";
+color:rgb(250, 250, 250);
+background: #247CC0;
+border-radius: 50%;
+font-size: 7px;
+margin-right: 20px;
+padding:5px;
+}
+br {
+margin-left: 20px;
+}
+.text_line{
+margin-left: 39px;
+margin-top: -6px;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+color: #030D15;
+}
+
+
+
 @font-face {
     font-family: "Hind Siliguri"; 
+    font-style: normal; 
+    font-weight: normal; 
     src: url("../fonts/Hind_Siliguri/HindSiliguri-Bold.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    
 }
 @font-face {
     font-family: "Hind Siliguri"; 
+    font-style: normal; 
+    font-weight: normal; 
     src: url("../fonts/Hind_Siliguri/HindSiliguri-Light.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    
 }
 @font-face {
     font-family: "Hind Siliguri"; 
-    src: url("../fonts/Hind_Siliguri/HindSiliguri-Medium.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
+    src: url("../fonts/Hind_Siliguri/HindSiliguri-Medium.ttf") format("truetype"); 
+    
 }
 @font-face {
     font-family: "Hind Siliguri"; 
@@ -75,7 +178,8 @@ display: inline-block;
 }
 @font-face {
     font-family: "Hind Siliguri"; 
-    src: url("../fonts/Hind_Siliguri/HindSiliguri-SemiBold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
+    src: url("../fonts/Hind_Siliguri/HindSiliguri-SemiBold.ttf") format("truetype"); 
+    
 }
