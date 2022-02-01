@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+.page {
+  padding: 15px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header__text {
+  display: flex;
+  justify-content: center;
+  font-family: Raleway;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+}
+.header__border {
+  position: relative;
+  top: 30px;
+  width: 170px;
+  margin: 0 auto;
+  border: 1px solid #ec7979;
+  background: #ec7979;
+}
+
+.header__text_tiny {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  font-family: Raleway;
+  font-size: 18px;
+  color: #86878b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+.tooltip__modal_left {
+  width: 370px;
+  height: 180px;
+  background: #e2e2e2;
+  border-radius: 10px;
+}
+.tooltip__modal_center {
+  width: 370px;
+  height: 180px;
+  background: #e2e2e2;
+  border-radius: 10px;
+}
+.tooltip__modal_right {
+  width: 370px;
+  height: 180px;
+  background: #e2e2e2;
+  border-radius: 10px;
+}
+.block_tooltip {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 80px;
+}
+.block_tooltip h5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #86878b;
+}
+.triangle__down_left {
+  position: relative;
+  top: 50px;
+  left: 115px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 50px solid #e2e2e2;
+}
+.triangle__down_center {
+  position: relative;
+  top: 5px;
+  left: 600px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 50px solid #e2e2e2;
+}
+.triangle__down_right {
+  position: relative;
+  bottom: 48px;
+  left: 1110px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 50px solid #e2e2e2;
+}
+.user__content div {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.user__image {
+  top: 10px;
+  right: 140px;
+}
+.user__name {
+  bottom: 80px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.user__text {
+  bottom: 120px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+}
